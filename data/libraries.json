@@ -39,7 +39,7 @@
   },
   {
     "name": "Cult UI",
-    "url": "https://github.com/nolly-studio/cult-ui",
+    "url": "https://www.cult-ui.com/",
     "category": "React",
     "description": "面向设计工程师(Design Engineers)打造的组件库，Tailwind CSS 样式，完全兼容 Shadcn，copy-paste 即用，MIT 许可",
     "pricing": "Free / Open Source",
@@ -63,6 +63,57 @@
       "ai-ui",
       "components",
       "accessible"
+    ],
+    "added_date": "2026-09-17"
+  },
+  {
+    "name": "React Bits",
+    "url": "https://reactbits.dev/",
+    "category": "React",
+    "description": "开源的创意型 React 动画组件库，165+ 个组件（文字动效、背景特效、UI元素），非常规组件库——不提供按钮/输入框等基础元素，专注视觉惊艳的动效展示。每个组件提供4种变体(JS-CSS/JS-TW/TS-CSS/TS-TW)，支持 shadcn CLI 和 jsrepo 安装，模块化按需引入不产生依赖",
+    "pricing": "Free / Open Source",
+    "tags": [
+      "react",
+      "animation",
+      "creative",
+      "copy-paste",
+      "shadcn-compatible",
+      "text-effects",
+      "backgrounds"
+    ],
+    "added_date": "2026-09-17"
+  },
+  {
+    "name": "Vue Bits",
+    "url": "https://vue-bits.dev/",
+    "category": "Vue",
+    "description": "React Bits 的官方 Vue 移植版，130+ 个创意动画组件（背景特效、文字动效、UI交互模式），TypeScript + Tailwind 编写，通过 jsrepo/shadcn CLI 一键安装到项目中，AI 友好（适配 Cursor/Copilot/v0）",
+    "pricing": "Free / Open Source",
+    "tags": [
+      "vue",
+      "animation",
+      "creative",
+      "copy-paste",
+      "shadcn-compatible",
+      "text-effects",
+      "backgrounds"
+    ],
+    "added_date": "2026-09-17"
+  },
+  {
+    "name": "Spectrum UI",
+    "url": "https://ui.spectrumhq.in/",
+    "category": "React",
+    "description": "基于 shadcn/ui 扩展的独立组件库，250+ 个产品级动画组件/区块（看板、多步表单、密码强度条、通知铃等）。技术栈: React+Next.js+TypeScript+Tailwind+Radix UI+Framer Motion，用 shadcn CLI 作安装通道但组件是自研的，官方明确表示'扩展而非替代shadcn'。附带 MCP server 供 AI agent 调用",
+    "pricing": "Free / Open Source",
+    "tags": [
+      "react",
+      "shadcn-compatible",
+      "radix",
+      "motion",
+      "animation",
+      "mcp",
+      "product-ui"
     ],
     "added_date": "2026-09-17"
   }
