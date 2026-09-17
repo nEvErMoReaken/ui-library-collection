@@ -20,5 +20,50 @@
     ],
     "source": "https://twitter.com/xin_pai88825/status/2100483741768675527",
     "added_date": "2026-09-17"
+  },
+  {
+    "name": "Animate UI",
+    "url": "https://github.com/imskyleen/animate-ui",
+    "category": "React",
+    "description": "完全动画化的开源组件分发库，基于 React + TypeScript + Tailwind CSS + Motion，兼容 Shadcn CLI，可浏览并一键安装/修改动画组件",
+    "pricing": "Free / Open Source",
+    "tags": [
+      "react",
+      "shadcn",
+      "animation",
+      "tailwind",
+      "motion",
+      "copy-paste"
+    ],
+    "added_date": "2026-09-17"
+  },
+  {
+    "name": "Cult UI",
+    "url": "https://github.com/nolly-studio/cult-ui",
+    "category": "React",
+    "description": "面向设计工程师(Design Engineers)打造的组件库，Tailwind CSS 样式，完全兼容 Shadcn，copy-paste 即用，MIT 许可",
+    "pricing": "Free / Open Source",
+    "tags": [
+      "react",
+      "shadcn",
+      "tailwind",
+      "copy-paste",
+      "design-engineering"
+    ],
+    "added_date": "2026-09-17"
+  },
+  {
+    "name": "Prompt Kit",
+    "url": "https://github.com/ibelick/prompt-kit",
+    "category": "React",
+    "description": "专为 AI 应用界面打造的核心构建组件库，高质量、可访问(a11y)、可自定义，适合聊天/对话类 AI 产品 UI",
+    "pricing": "Free / Open Source",
+    "tags": [
+      "react",
+      "ai-ui",
+      "components",
+      "accessible"
+    ],
+    "added_date": "2026-09-17"
   }
 ]
