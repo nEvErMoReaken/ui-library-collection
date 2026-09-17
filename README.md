@@ -7,8 +7,8 @@
 ## 目录
 
 - [Shadcn 核心生态](#shadcn-核心生态) (1)
-- [Shadcn 兼容扩展](#shadcn-兼容扩展) (4)
-- [独立非 Shadcn 库](#独立非-shadcn-库) (2)
+- [Shadcn 兼容扩展](#shadcn-兼容扩展) (5)
+- [独立非 Shadcn 库](#独立非-shadcn-库) (1)
 
 ## Shadcn 核心生态
 
@@ -24,8 +24,9 @@
 
 | 名称 | 框架 | 链接 | 说明 | 收费 | 标签 | 来源 | 添加日期 |
 |---|---|---|---|---|---|---|---|
-| Animate UI | React | [https://github.com/imskyleen/animate-ui](https://github.com/imskyleen/animate-ui) | 完全动画化的开源组件分发库，基于 React + TypeScript + Tailwind CSS + Motion，兼容 Shadcn CLI，可浏览并一键安装/修改动画组件 | Free / Open Source | animation, tailwind, motion, copy-paste |  | 2026-09-17 |
+| Animate UI | React | [https://animate-ui.com/](https://animate-ui.com/) | 完全动画化的开源组件分发库，基于 React + TypeScript + Tailwind CSS + Motion，兼容 Shadcn CLI，可浏览并一键安装/修改动画组件 | Free / Open Source | animation, tailwind, motion, copy-paste |  | 2026-09-17 |
 | Cult UI | React | [https://www.cult-ui.com/](https://www.cult-ui.com/) | 面向设计工程师(Design Engineers)打造的组件库，Tailwind CSS 样式，完全兼容 Shadcn，copy-paste 即用，MIT 许可 | Free / Open Source | tailwind, copy-paste, design-engineering |  | 2026-09-17 |
+| Prompt Kit | React | [https://www.prompt-kit.com/](https://www.prompt-kit.com/) | 专为 AI 应用界面打造的核心构建组件库，高质量、可访问(a11y)、可自定义，适合聊天/对话类 AI 产品 UI。通过 shadcn registry 安装（npx shadcn add "https://prompt-kit.com/c/[组件].json"），Blocks 板块提供 AI 应用完整区块 | Free / Open Source | ai-ui, components, accessible |  | 2026-09-17 |
 | React Bits | React | [https://reactbits.dev/](https://reactbits.dev/) | 开源的创意型 React 动画组件库，165+ 个组件（文字动效、背景特效、UI元素），非常规组件库——不提供按钮/输入框等基础元素，专注视觉惊艳的动效展示。每个组件提供4种变体(JS-CSS/JS-TW/TS-CSS/TS-TW)，支持 shadcn CLI 和 jsrepo 安装，模块化按需引入不产生依赖 | Free / Open Source | animation, creative, copy-paste, text-effects, backgrounds |  | 2026-09-17 |
 | Vue Bits | Vue | [https://vue-bits.dev/](https://vue-bits.dev/) | React Bits 的官方 Vue 移植版，130+ 个创意动画组件（背景特效、文字动效、UI交互模式），TypeScript + Tailwind 编写，通过 jsrepo/shadcn CLI 一键安装到项目中，AI 友好（适配 Cursor/Copilot/v0） | Free / Open Source | animation, creative, copy-paste, text-effects, backgrounds |  | 2026-09-17 |
 
@@ -35,7 +36,6 @@
 
 | 名称 | 框架 | 链接 | 说明 | 收费 | 标签 | 来源 | 添加日期 |
 |---|---|---|---|---|---|---|---|
-| Prompt Kit | React | [https://github.com/ibelick/prompt-kit](https://github.com/ibelick/prompt-kit) | 专为 AI 应用界面打造的核心构建组件库，高质量、可访问(a11y)、可自定义，适合聊天/对话类 AI 产品 UI | Free / Open Source | ai-ui, components, accessible |  | 2026-09-17 |
 | Watermelon UI | React | [https://ui.watermelon.sh/](https://ui.watermelon.sh/) | Watermelon UI（@watermelonui）是一个专为初创团队和开发者打造的 React UI 组件库：750+ 高质量组件，整体风格偏向**多邻国(Duolingo)式的游戏化(gamification)风格**——圆润饱满的形状、鲜艳明快的配色、卡通化图标和拟物化 3D 感、带弹跳/反馈感的过渡动效，适合做产品打卡、成就徽章、进度条等游戏化交互界面。组件涵盖动画交互组件、Bento 网格、轮播/卡片滑动、日历小组件、Blocks（Hero区块/认证模板/Footer/博客布局）、完整仪表盘和模板，可直接 copy-paste 到项目里，主打“设计到开发零损耗”。100% 开源，官方在站点标注了每个组件的设计灵感来源以示尊重原创。附带 AI 辅助 prompt（vibe coding）、llms.txt/OpenAPI/MCP 接口，方便 AI agent 直接检索和使用组件库。 | Free / Open Source | components, templates, dashboard, mcp, animation, bento, copy-paste, gamified, duolingo-style, playful | [link](https://twitter.com/xin_pai88825/status/2100483741768675527) | 2026-09-17 |
 
 ---

@@ -23,7 +23,7 @@
   },
   {
     "name": "Animate UI",
-    "url": "https://github.com/imskyleen/animate-ui",
+    "url": "https://animate-ui.com/",
     "category": "Shadcn 兼容扩展",
     "framework": "React",
     "description": "完全动画化的开源组件分发库，基于 React + TypeScript + Tailwind CSS + Motion，兼容 Shadcn CLI，可浏览并一键安装/修改动画组件",
@@ -52,10 +52,10 @@
   },
   {
     "name": "Prompt Kit",
-    "url": "https://github.com/ibelick/prompt-kit",
-    "category": "独立非 Shadcn 库",
+    "url": "https://www.prompt-kit.com/",
+    "category": "Shadcn 兼容扩展",
     "framework": "React",
-    "description": "专为 AI 应用界面打造的核心构建组件库，高质量、可访问(a11y)、可自定义，适合聊天/对话类 AI 产品 UI",
+    "description": "专为 AI 应用界面打造的核心构建组件库，高质量、可访问(a11y)、可自定义，适合聊天/对话类 AI 产品 UI。通过 shadcn registry 安装（npx shadcn add \"https://prompt-kit.com/c/[组件].json\"），Blocks 板块提供 AI 应用完整区块",
     "pricing": "Free / Open Source",
     "tags": [
       "ai-ui",
