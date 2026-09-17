@@ -43,7 +43,10 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--url", required=True)
     p.add_argument("--name", default=None)
-    p.add_argument("--category", default="Other")
+    p.add_argument("--category", default="独立非 Shadcn 库",
+                    choices=["Shadcn 核心生态", "Shadcn 兼容扩展", "独立非 Shadcn 库", "纯 CSS / 其他"])
+    p.add_argument("--framework", default="React",
+                    help="e.g. React / Vue / Svelte / Angular / Framework-agnostic")
     p.add_argument("--description", default="")
     p.add_argument("--pricing", default="Unknown",
                     help="e.g. Free / Freemium / Paid / Open Source")
@@ -59,6 +62,7 @@ def main():
         "name": args.name or guess_name(args.url),
         "url": args.url,
         "category": args.category,
+        "framework": args.framework,
         "description": args.description,
         "pricing": args.pricing,
         "tags": [t.strip() for t in args.tags.split(",") if t.strip()],

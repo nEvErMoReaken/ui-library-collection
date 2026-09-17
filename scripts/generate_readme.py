@@ -11,19 +11,19 @@ README_FILE = os.path.join(ROOT, "README.md")
 
 # Preferred display order for categories; anything else is appended alphabetically after.
 CATEGORY_ORDER = [
-    "React",
-    "Vue",
-    "Svelte",
-    "Angular",
-    "Web Components",
-    "CSS / Vanilla",
-    "Design System",
-    "Icon Library",
-    "Animation",
-    "Charts & Data Viz",
-    "Admin Template",
-    "Other",
+    "Shadcn 核心生态",
+    "Shadcn 兼容扩展",
+    "独立非 Shadcn 库",
+    "纯 CSS / 其他",
 ]
+
+CATEGORY_DESC = {
+    "Shadcn 核心生态": "深度绑定 shadcn/ui：必须先用 `shadcn` CLI 初始化项目，组件通过 `npx shadcn add` 安装，代码风格/约定与 shadcn 一致。",
+    "Shadcn 兼容扩展": "独立组件库，但额外提供 shadcn CLI 作为可选安装通道；不依赖 shadcn 项目也能用（可直接 copy-paste）。",
+    "独立非 Shadcn 库": "完全自成体系，与 shadcn 无关，有自己的安装方式和设计语言。",
+    "纯 CSS / 其他": "不依赖特定框架的样式方案，或不属于以上三类的其他库。",
+}
+
 
 
 def load_libraries():
@@ -60,10 +60,14 @@ def render(libs):
     for cat in ordered_cats:
         lines.append(f"## {cat}")
         lines.append("")
-        lines.append("| 名称 | 链接 | 说明 | 收费 | 标签 | 来源 | 添加日期 |")
-        lines.append("|---|---|---|---|---|---|---|")
+        if cat in CATEGORY_DESC:
+            lines.append(f"> {CATEGORY_DESC[cat]}")
+            lines.append("")
+        lines.append("| 名称 | 框架 | 链接 | 说明 | 收费 | 标签 | 来源 | 添加日期 |")
+        lines.append("|---|---|---|---|---|---|---|---|")
         for lib in sorted(groups[cat], key=lambda x: x.get("name", "").lower()):
             name = lib.get("name", "")
+            framework = lib.get("framework", "-")
             url = lib.get("url", "")
             desc = lib.get("description", "")
             pricing = lib.get("pricing", "Unknown")
@@ -71,7 +75,7 @@ def render(libs):
             source = lib.get("source", "")
             source_md = f"[link]({source})" if source else ""
             added = lib.get("added_date", "")
-            lines.append(f"| {name} | [{url}]({url}) | {desc} | {pricing} | {tags} | {source_md} | {added} |")
+            lines.append(f"| {name} | {framework} | [{url}]({url}) | {desc} | {pricing} | {tags} | {source_md} | {added} |")
         lines.append("")
 
     lines.append("---")
