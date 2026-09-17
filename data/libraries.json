@@ -4,6 +4,7 @@
     "url": "https://ui.watermelon.sh/",
     "category": "React",
     "description": "开源 React UI 平台，含动画组件、可复制区块、仪表盘和模板，支持 llms.txt/MCP/OpenAPI",
+    "pricing": "Free / Open Source",
     "tags": [
       "react",
       "components",

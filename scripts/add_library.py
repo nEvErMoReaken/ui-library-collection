@@ -45,6 +45,8 @@ def main():
     p.add_argument("--name", default=None)
     p.add_argument("--category", default="Other")
     p.add_argument("--description", default="")
+    p.add_argument("--pricing", default="Unknown",
+                    help="e.g. Free / Freemium / Paid / Open Source")
     p.add_argument("--tags", default="")
     args = p.parse_args()
 
@@ -58,6 +60,7 @@ def main():
         "url": args.url,
         "category": args.category,
         "description": args.description,
+        "pricing": args.pricing,
         "tags": [t.strip() for t in args.tags.split(",") if t.strip()],
         "added_date": date.today().isoformat(),
     }

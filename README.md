@@ -10,9 +10,9 @@
 
 ## React
 
-| 名称 | 链接 | 说明 | 标签 | 添加日期 |
-|---|---|---|---|---|
-| Watermelon UI | [https://ui.watermelon.sh/](https://ui.watermelon.sh/) | 开源 React UI 平台，含动画组件、可复制区块、仪表盘和模板，支持 llms.txt/MCP/OpenAPI | react, components, templates, dashboard, mcp | 2026-09-17 |
+| 名称 | 链接 | 说明 | 收费 | 标签 | 添加日期 |
+|---|---|---|---|---|---|
+| Watermelon UI | [https://ui.watermelon.sh/](https://ui.watermelon.sh/) | 开源 React UI 平台，含动画组件、可复制区块、仪表盘和模板，支持 llms.txt/MCP/OpenAPI | Free / Open Source | react, components, templates, dashboard, mcp | 2026-09-17 |
 
 ---
 

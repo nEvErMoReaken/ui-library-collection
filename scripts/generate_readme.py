@@ -60,15 +60,16 @@ def render(libs):
     for cat in ordered_cats:
         lines.append(f"## {cat}")
         lines.append("")
-        lines.append("| 名称 | 链接 | 说明 | 标签 | 添加日期 |")
-        lines.append("|---|---|---|---|---|")
+        lines.append("| 名称 | 链接 | 说明 | 收费 | 标签 | 添加日期 |")
+        lines.append("|---|---|---|---|---|---|")
         for lib in sorted(groups[cat], key=lambda x: x.get("name", "").lower()):
             name = lib.get("name", "")
             url = lib.get("url", "")
             desc = lib.get("description", "")
+            pricing = lib.get("pricing", "Unknown")
             tags = ", ".join(lib.get("tags", []))
             added = lib.get("added_date", "")
-            lines.append(f"| {name} | [{url}]({url}) | {desc} | {tags} | {added} |")
+            lines.append(f"| {name} | [{url}]({url}) | {desc} | {pricing} | {tags} | {added} |")
         lines.append("")
 
     lines.append("---")
