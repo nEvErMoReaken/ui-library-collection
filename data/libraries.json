@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "name": "Watermelon UI",
+    "url": "https://ui.watermelon.sh/",
+    "category": "React",
+    "description": "开源 React UI 平台，含动画组件、可复制区块、仪表盘和模板，支持 llms.txt/MCP/OpenAPI",
+    "tags": [
+      "react",
+      "components",
+      "templates",
+      "dashboard",
+      "mcp"
+    ],
+    "added_date": "2026-09-17"
+  }
+]
